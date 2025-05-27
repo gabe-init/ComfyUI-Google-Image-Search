@@ -1,0 +1,15 @@
+[project]
+name = "google_image_search"
+description = "ComfyUI Google Image Search Node - Search and retrieve images from Google"
+version = "1.0.0"
+license = {file = "LICENSE"}
+dependencies = ["oauth2client<4.0.0","google-api-python-client>=2.0.0","requests>=2.0.0","Pillow>=9.0.0","torch>=2.0.0","numpy>=1.0.0"]
+
+[project.urls]
+Repository = "https://github.com/gabe-init/ComfyUI-Google-Image-Search"
+# Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = "gabe-init"
+DisplayName = "ComfyUI-Google-Image-Search"
+Icon = ""
